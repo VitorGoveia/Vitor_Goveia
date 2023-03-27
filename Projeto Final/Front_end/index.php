@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Alleart studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+</head>
+<body>
+    
+    <!-- Área do menu principal e cabeçalho da página -->
+
+    <nav id="menu">
+        <a href="#"><img src="imagens/logo.png" alt="Alleat-logo"></a>
+
+        <div class="menu-principal">
+            <ul>
+                <li><a class="principal" href="#quem-somos">Quem Somos</a></li>
+                <li><a class="principal" href="#servicos">Serviços</a></li>
+                <li><a class="principal" href="#portifolio">Portifólio</a></li>
+                <li><a class="principal" href="#contato">Contato</a></li>
+                <li><a class="principal" href="pagina_login.php">Login</a></li>
+            </ul>
+        </div>
+        <div class="redes-sociais">
+            <ul>
+                <li><a href="#"><img src="imagens/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="imagens/face.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="imagens/tw.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="imagens/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="topo">
+        <img src="imagens/logo-centro.png" alt="Alleart">
+        <h2> Onde a arte, a fotografia, o vídeo e a tecnologia se encontram!</h2>
+        <a href="#portifolio" class="botao">Ver mais</a>
+    </header>
+
+    <!-- Área da sessão Quem Somos -->
+
+    <section id="quem-somos">
+        <h2>Quem Somos</h2>
+        <p>Somos um estúdio preparado e equipado para receber os profissionais da fotografia, vídeo, audiovisual, produtoras, agências publicitárias, influencers e geradores de conteúdo.</p>
+
+        <p>Trabalhamos com profissionais credenciados e preparados para produzir suas campanhas fotográficas e de audiovisual.</p>
+        
+        <p>No estúdio você encontra uma loja para locação de mobílias, objetos de cena, figurinos de época e contemporâneo.</p>
+
+        <p>O estúdio Alleart, está localizado em Alphaville, um bairro nobre dos municípios de Barueri e Santana de Parnaíba, no estado de São Paulo.</p>
+
+        <a href="#contato" class="botao">Fale conosco!</a>
+    </section>
+
+    <!-- Área da sessão Serviços -->
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+
+        <div>
+            <img src="imagens/p1.png" alt="camera"/>
+            <h3>fotografia</h3>
+            <p>Guarde momentos importantes, como casamento, formaturas, aniversários para sempre com alta qualidade.</p>
+        </div>
+
+        <div>
+            <img src="imagens/p2.png" alt="filme"/>
+            <h3>Edição de Vídeo</h3>
+            <p>Quer transformar alguma lembrança em vídeo ou algo emocionante com trilha sonora, textos e cores fantásticas?</p>
+        </div>
+
+        <div>
+            <img src="imagens/p3.png" alt="videoplayer">
+            <h3>Captação de Imagem</h3>
+            <p>Vai participar de algum evento importante em sua vida, então é importante recordar tudo a cada segundo para tornar tudo imortal!</p>
+        </div>
+
+        <div>
+            <img src="imagens/p4.png" alt="tratamento">
+            <h3>Tratamento de Imagem</h3>
+            <p>Tem alguma foto antiga com cores meio tristes? E uma foto sua com uma pele nova e um sorriso brilhante?</p>
+        </div>
+    </section>
+
+    <!-- Área da sessão Portifólio -->
+
+    <section id="portifolio">
+        <h2>Portifólio</h2>
+        <img src="imagens/aniversario.jpg" alt="aniversario"/>
+        <img src="imagens/baby.jpg" alt="baby"/>
+        <img src="imagens/casamento.jpg" alt="casamento"/>
+        <img src="imagens/garota.jpg" alt="garota"/>
+        <img src="imagens/homem.jpg" alt="homem"/>
+        <img src="imagens/formando.jpg" alt="formando"/>
+    </section>
+
+    <!-- Área da sessão Contato -->
+
+    <section id="contato"> 
+        <h2>Contato</h2>
+        <p>Venha falar conosco!</p>
+
+        <div>
+            <img src="imagens/tel.png" alt="telefone"/>
+            <p><a href="tel:11912345678">(11) 9 1234-5678</a></p>
+        </div>
+
+        <div>
+            <img src="imagens/mail.png" alt="email">
+            <p><a href="mailto:contato@alleart.com.br">contato@alleart.com.br</a></p>
+        </div>
+    </section>
+
+    <!-- Área do rodapé -->
+
+    <footer>
+        <a href="#menu"><img src="imagens/voltar.png" alt="voltar"></a><br/>
+        <p>Todos os direitos reservados &copy; Alleart studio</p>
+    </footer>
+</body>
+</html>
